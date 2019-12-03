@@ -48,7 +48,7 @@ void ShowInsertMenu()
 
 void PrintAll()
 {
-	for (int i = 0; i <= idx; i++)
+	for (int i = 0; i < idx; i++)
 	{
 		cout << *pEmp[i] << "\n";
 	}
