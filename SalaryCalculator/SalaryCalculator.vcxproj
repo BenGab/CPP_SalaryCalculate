@@ -142,6 +142,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CAgent.h" />
+    <ClInclude Include="CEmployee.h" />
+    <ClInclude Include="CManager.h" />
+    <ClInclude Include="CWorker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAgent.cpp" />
+    <ClCompile Include="CEmployee.cpp" />
+    <ClCompile Include="CManager.cpp" />
+    <ClCompile Include="CWorker.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
