@@ -14,9 +14,9 @@ int main()
 {
 	CEmployee* pEmp[3];
 
-	pEmp[0] = new CAgent("Joe", 10000, 48, 12, 3456);
-	pEmp[1] = new CManager("Carl", 20000);
-	pEmp[2] = new CWorker("Stefan", 5000, 24);
+	pEmp[0] = CAgent::CreateAgent();
+	pEmp[1] = CManager::CreateManager();
+	pEmp[2] = CWorker::CreateWorker();
 
 	for (int i = 0; i < 3; i++)
 	{
@@ -27,5 +27,6 @@ int main()
 	{
 		delete pEmp[i];
 	}
+
 	return 0;
 }

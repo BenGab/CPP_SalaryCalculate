@@ -3,6 +3,7 @@
 class CAgent : public CWorker
 {
 public:
+	static CEmployee* CreateAgent();
 	CAgent(const char* aName, unsigned int aSalary, unsigned int aWorkhours, unsigned int aQuantity, unsigned int aTip);
 	unsigned int Calculate() override;
 	~CAgent();
